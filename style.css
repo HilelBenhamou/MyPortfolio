@@ -1,0 +1,262 @@
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+.titlepages
+{
+	text-align: center;
+	color: #696969;
+ 	font-size: 35px;
+	margin-bottom: 10px;
+	padding: 50px;
+}
+
+/************************HEADER***************************/
+#home
+{
+	/*border: 2px solid blue;*/
+	height: 90vh;
+	background-image: url(headerback.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+}
+#logo
+{
+	float: left;
+}
+nav
+{
+	background-color: #696969
+}
+
+.menu
+{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.jumbotron
+{
+	/*border: 2px solid black;*/
+	position: relative;
+	background-color: transparent;
+	padding-left:19%; 
+}
+
+.jumbo
+{
+	margin-top:200px;
+}
+
+.jumbo p
+{
+	color: black;
+}
+
+ .display-4
+ {
+ 	color: #696969;
+ 	font-size: 35px;
+ 
+ }
+
+.learny
+{
+	background-color:#696969;
+	border: none;
+}
+
+/************************ABOUT******************************/
+#about
+{
+	/*border:2px solid red;*/
+	height: 90vh;
+	background-color:#D3D3D3;
+	border-top: 1px solid black;
+
+}
+
+.box1
+{
+	display: flex;
+	justify-content: center;
+}
+.face1
+{
+	border-radius: 300px;
+	margin-right: 20px;
+	border-radius: 50%;
+	margin-bottom:10px;
+}
+
+.myface p
+{
+	text-align: center;
+}
+
+.bar
+{
+	border:2px solid #008080;
+	margin-right: 30px;
+}
+
+.text1
+{
+	color: #008080;
+}
+.text1 > p
+{
+	text-align:justify;
+}
+
+
+
+/************************PORTFOLIO***************************/
+#portfolio
+{
+	/*border:2px solid green;*/
+	height: 100vh;
+	background-color: #D3D3D3;
+	border-top: 1px solid black;
+}
+.cases
+{
+	/*border:2px solid black;*/
+	margin-bottom: 10px;
+	padding: 20px;
+}
+.cases0
+{
+	border:2px solid black;
+	height: 200px;
+	transition: all .2s ease-in-out;
+}
+.cases0:hover
+{
+	transform: scale(0.8); 
+	cursor: pointer;
+}
+
+.case1
+{
+	background-image: url(chezluigi.png);
+	background-size: cover;
+	border-radius: 20px;
+}
+.case2
+{
+	background-image: url(cv.png);
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.case3
+{
+	background-image: url(tel.png);
+	background-size: cover;
+	border-radius: 20px;
+}
+
+.case4
+{
+	background-image: url(add.jpg);
+	background-size: cover;
+	border-radius: 20px;
+}
+.case5
+{
+	background-image: url(add.jpg);
+	background-size: cover;
+	border-radius: 20px;
+}
+.case6
+{
+	background-image: url(add.jpg);
+	background-size: cover;
+	border-radius: 20px;
+}
+
+
+
+/************************TEAM*********************************/
+#team
+{
+	/*border:2px solid pink;*/
+	height: 100vh;
+	background-color:#D3D3D3;
+	border-top: 1px solid black;
+}
+.box2
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.prep
+{
+	border:2px solid black;
+	height: 300px;
+	width: 300px;
+	transition: all .2s ease-in-out;
+}
+.prep:hover
+{
+	transform: scale(1.1); 
+	cursor: pointer;
+}
+.prep p{
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.prep1
+{
+	background-image: url(face1.jpg);
+	background-size: cover;
+}
+
+.prep2
+{
+	background-image: url(face3.jpg);
+	background-size: cover;
+}
+
+.prep3
+{
+	background-image: url(face2.png);
+	background-size: cover;
+}
+
+.prep4
+{
+	background-image: url(face4.jpg);
+	background-size: cover;
+}
+
+
+
+
+/************************CONTACT*******************************/
+
+#contact
+{
+	/*border:2px solid orange;*/
+	height: 90vh;
+	background-color:#D3D3D3;
+	border-top: 1px solid black;
+}
+
+.form
+{
+	/*border:2px solid white;*/
+	width: 50%;
+	margin-left: 30%;
+}
+
+
+
