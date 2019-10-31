@@ -145,13 +145,13 @@ nav
 
 .case1
 {
-	background-image: url(chezluigi.png) ;
+	background-image: url(chezluigi.PNG) ;
 	background-size: cover;
 	border-radius: 20px;
 }
 .case2
 {
-	background-image: url(cv.png);
+	background-image: url(cv.PNG);
 	background-size: cover;
 	border-radius: 20px;
 }
