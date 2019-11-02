@@ -133,7 +133,7 @@ nav
 }
 .cases0
 {
-	border:2px solid black;
+	/*border:2px solid black;*/
 	height: 200px;
 	transition: all .2s ease-in-out;
 }
@@ -142,44 +142,49 @@ nav
 	transform: scale(0.8); 
 	cursor: pointer;
 }
-
+.lien
+{
+	border:1px solid black;
+	border-radius: 20px;
+	width: 300px;
+	height: 200px;
+}
 .case1
 {
-	background-image: url(chezluigi.PNG) ;
-	background-size: cover;
-	border-radius: 20px;
+	/*background-image: url(chezluigi.PNG) ;
+	background-size: cover;*/
+	
 }
 .case2
 {
-	background-image: url(cv.PNG);
-	background-size: cover;
-	border-radius: 20px;
+	/*background-image: url(cv.PNG);
+	background-size: cover;*/
 }
 
 .case3
 {
-	background-image: url(tel.PNG);
-	background-size: cover;
-	border-radius: 20px;
+	/*background-image: url(tel.PNG);
+	background-size: cover;*/
+	
 }
 
 .case4
 {
-	background-image: url(add.jpg);
-	background-size: cover;
-	border-radius: 20px;
+	/*background-image: url(tripy.PNG);
+	background-size: cover;*/
+	
 }
 .case5
 {
-	background-image: url(add.jpg);
-	background-size: cover;
-	border-radius: 20px;
+	/*background-image: url(geo.PNG);
+	background-size: cover;*/
+	
 }
+
 .case6
 {
-	background-image: url(add.jpg);
-	background-size: cover;
-	border-radius: 20px;
+	/*background-image: url(add.jpg);
+	background-size: cover;*/
 }
 
 
